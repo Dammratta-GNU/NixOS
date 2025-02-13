@@ -7,12 +7,12 @@ let
 
     src = pkgs.fetchurl {
       url = "https://github.com/Dammratta-GNU/NixOS/raw/refs/heads/main/Customization/Resources/Radioactive.tar.gz";
-      sha256 = "sha256-MszjXdRghB6U+TdGO1BizfRysKCtlC0FrlrljjRMbpw="; # Replace with the actual hash
+      sha256 = "sha256-8uOWmlhNPV+mbTExghH0ucXVj7BnGi073a5ZHjqA+Us=";
     };
 
     installPhase = ''
-      mkdir -p $out/share/icons/Radioactive
-      tar -xzf $src -C $out/share/icons/Radioactive
+      mkdir -p $out/share/icons
+      tar -xzf $src -C $out/share/icons
     '';
 
     meta = with lib; {
