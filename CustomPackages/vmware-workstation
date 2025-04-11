@@ -1,1 +1,0 @@
-VMware builds for nixOS with a changed bundle file source address. Since broadcom changed the download address and the package is not downloaded from official repositories as of 2025-04-11
