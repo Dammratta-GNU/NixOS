@@ -6,9 +6,9 @@ How to use:
 3. Download files from vmware_Х.Х.Х to /etc/nixos/vmware (or you can change the path to another one if you wish)
 4. chown -R root:root /etc/nixos/vmware
 5. Import custom_vmware.nix into configuration.nix:
-  imports =
-    [ # Include the results of the hardware scan.
-      ./hardware-configuration.nix
-      ./custom_vmware.nix
-    ];
+imports =
+  [ # Include the results of the hardware scan.
+    ./hardware-configuration.nix
+    ./custom_vmware.nix
+  ];
 7. nixos-rebuild switch
