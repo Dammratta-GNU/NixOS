@@ -37,7 +37,7 @@ let
   # base - versions
   version = "17.6.1";
   build = "24319023";
-  baseUrl = "https://softwareupdate-dev.broadcom.com/cds/vmw-desktop/ws/${version}/${build}/linux";
+  baseUrl = "https://softwareupdate-prod.broadcom.com/cds/vmw-desktop/ws/${version}/${build}/linux";
 
   # macOS - versions
   unlockerVersion = "3.0.5";
